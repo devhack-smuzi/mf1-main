@@ -27,7 +27,8 @@ module.exports = {
         name: "mf1Main",
         filename: "remoteEntry.js",
         exposes: {
-            './MF1Main': './/src/bootstrap.ts',
+            './MF1Main': './/src/app/app.module.ts',
+            './MF1Platform': './/src/platform.ts'
         },        
         
         // For hosts (please adjust)

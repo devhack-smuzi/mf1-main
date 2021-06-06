@@ -10,7 +10,7 @@ sharedMappings.register(
 module.exports = {
   output: {
     uniqueName: "mf1Main",
-    publicPath: "/main/"
+    publicPath: "auto"
   },
   optimization: {
     runtimeChunk: false
